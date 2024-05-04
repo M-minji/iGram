@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: iGramVer1
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/igramv1
+    username: root
+    password: maria1209
+mybatis:
+  mapper-locations: mappers/**/*.xml
+
+springdoc:
+  swagger-ui:
+    path: /swagger
